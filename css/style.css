@@ -3,9 +3,6 @@ nav {
 
 }
 
-nav button {
-  background-color: #64b5f6;  
-}
 
 
 nav .nav-wrapper .brand-logo .responsive-img {
@@ -15,14 +12,19 @@ nav .nav-wrapper .brand-logo .responsive-img {
 }
 
 
+.waves-effect btn-flat right {
+  height: 60px;
+  line-height: 50px;
+}
+
 
 footer {
       background-color: #0d47a1;
 }
 
 .page-footer .responsive-img {
-  height:200px;
-  width: 200px;
+  height:240px;
+  width: 240px;
 }
 
 footer.page-footer  {
