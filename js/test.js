@@ -10,3 +10,9 @@ console.log('hello!');
 
 
   $("body.side-nav .dropdown-button").dropdown();
+
+  $('.carousel').carousel({padding:100});
+
+   $('.carousel.carousel-slider').carousel({full_width: true});
+
+   $('.slider').slider();
