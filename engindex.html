@@ -6,12 +6,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CUCSSA.org</title>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script src="https://use.fontawesome.com/f4eb75c3a7.js"></script>
+  <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+
+
+<!-- Header area -->
+
+
+<header>
 
 
 <!-- responsive navbar with sidebar -->
@@ -29,11 +35,11 @@
     <li><a href="#!">three</a></li>
   </ul>
   <ul class="side-nav" id="mobile-demo">
-    <li><a href="sass.html">Campus Life</a></li>
-    <li><a href="badges.html">News</a></li>
-    <li><a href="badges.html">About us</a></li>
-    <!-- Dropdown Trigger -->
-    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a class="dropdown-button" href="#" data-activates="dropdown2">Campus Life<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">About us<i class="material-icons right">arrow_drop_down</i></a></li>
+
+    <li><a href="#">News</a></li>
+    <li><a href="#">BBS</a></li>
   </ul>
     <div class="navbar-fixed">
       <nav >
@@ -41,11 +47,11 @@
           <a href="#!" class="brand-logo"><img class="responsive-img" src="./img/logofinal.png"></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html">Campus Life</a></li>
-            <li><a href="badges.html">News</a></li>
-            <li><a href="badges.html">About us</a></li>
-            <!-- Dropdown Trigger -->
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#" data-activates="dropdown2">Campus Life<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">About us<i class="material-icons right">arrow_drop_down</i></a></li>
+
+            <li><a href="#">News</a></li>
+            <li><a href="#">BBS</a></li>
             <li> <a class="waves-effect waves-light btn green accent-3" href="https://lists.columbia.edu/mailman/listinfo/cucssa">Subscribe</a>  </li>
           </ul>
 
@@ -54,68 +60,137 @@
     </div>
 
 
-<!-- Business card -->
-    <div class="col s12 m7">
-    <h2 class="header center" >Horizontal Card</h2>
-    <div class="card horizontal">
-      <div class="card-image">
-        <img src="http://lorempixel.com/100/190/nature/6">
+
+
+
+
+<!-- Introducing Card-->
+    <div class="introcucssa" style="height:600px;">
+      <h1 id="introtitle" class="animated fadeInRightBig center"> Columbia University Chinese Students and Scholars Association</h1>
+      <div class="animated fadeInLeftBig center">
+        <h3>Found in 1996</h3>
       </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p>I am a very simple card. I am good at containing small bits of information.</p>
+        <div id="introsubtitle1" class="animated fadeInLeftBig center">
+         <h4>  Established in Columbia University in the City of New York </h4>
         </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
+        <div id="introsubtitle2" class="animated fadeInLeftBig center">
+          <h5>In service of Chinese students and scholars</h5>
+        </div >
+        <div id="introsubtitle3" class="animated fadeInLeftBig center">
+          <h5>Unite all the Chinese and Alumni in the community</h5>
         </div>
-      </div>
+        <div id="introsubtitle4" class="animated fadeInLeftBig center">
+          <h5>Promote Chinese culture and enhance international communication</h5>
+        </div>
+        <div id="introsubtitle5" class="animated fadeInLeftBig center">
+          <a class="waves-effect waves-light btn-large" href="engabout.html"> More about us</a>
+        </div>
     </div>
-  </div>
 
-
-
+</header>
 <!-- video test -->
 
 
-  <!-- Slider for News -->
-  <div class="slider">
+  <!-- Slider for Brand activities -->
+  <div class="slider" style="height:600px;">
   <ul class="slides">
     <li>
       <img src="./img/2016springgala.jpg"> <!-- random image -->
       <div class="caption center-align">
-        <h3>This is our big Tagline!</h3>
-        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <h3>Columbia Chinese New Year Gala</h3>
+        <h5 class="light grey-text text-lighten-3">eight American Ivy League school for jointly organizing “CUCSSA Lunar New Year’s party” that was the first large-scale Ivy League New Year Gala</h5>
       </div>
     </li>
     <li>
       <img src="http://blog.supershuttle.com/wp-content/uploads/2016/01/supershuttle-van.jpg"> <!-- random image -->
       <div class="caption left-align">
-        <h3>Left Aligned Caption</h3>
-        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <h3>New Students Care Program </h3>
+        <h5 class="light grey-text text-lighten-3">Are you still worried about housing, transporting and dining ?</h5>
       </div>
     </li>
     <li>
-      <img src="http://www.ccpc2014.org/static/img/ink-stroke.png"> <!-- random image -->
+      <img src="https://weaicolumbia.files.wordpress.com/2015/03/img_5715.jpg"> <!-- random image -->
       <div class="caption right-align">
-        <h3>Right Aligned Caption</h3>
-        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <h3>Columbia China Prospects Conference</h3>
+        <h5 class="light grey-text text-lighten-3">The forum was honored to invite over fifty renowned speakers to share their brilliant ideas</h5>
       </div>
     </li>
     <li>
       <img src="http://news.ecnu.edu.cn/_upload/article/images/39/c6/1339931b4a38a15dcd06c61b9906/98284d8c-2ddc-42fd-89b5-530752d69f4d.jpg"> <!-- random image -->
       <div class="caption center-align">
-        <h3>This is our big Tagline!</h3>
-        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+        <h3>Columbia China Forum</h3>
+        <h5 class="light grey-text text-lighten-3">series of seminars and talks organized by the CUCSSA first started in 2011</h5>
       </div>
     </li>
   </ul>
 </div>
 
+  <!-- News area -->
+
+
+  <div class=" animated zoomIn " id="newstitle">
+    <h2 class="center">News Center</h2>
+  </div>
+
+
+
+
+
+<div class="row">
+   <div class="col s4 animated zoomIn" id="card1">
+     <div class="card " >
+            <div class="card-image">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Le_Penseur_at_Columbia_University_(6435262909).jpg">
+              <span class="card-title">Card Title</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+   </div>
+   <div class="col s4 animated zoomIn" id="card2">
+     <div class="card " >
+           <div class="card-image">
+             <img src="http://www.davidleventi.com/media/original/DL_ColumbiaUniversity.jpg">
+             <span class="card-title">Card Title</span>
+           </div>
+           <div class="card-content">
+             <p>I am a very simple card. I am good at containing small bits of information.
+             I am convenient because I require little markup to use effectively.</p>
+           </div>
+           <div class="card-action">
+             <a href="#">This is a link</a>
+           </div>
+         </div>
+   </div>
+   <div class="col s4 animated zoomIn" id="card3">
+     <div class="card " >
+           <div class="card-image">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Butler_Library_-_1000px_-_AC.jpg">
+             <span class="card-title">Card Title</span>
+           </div>
+           <div class="card-content ">
+             <p>I am a very simple card. I am good at containing small bits of information.
+             I am convenient because I require little markup to use effectively.</p>
+           </div>
+           <div class="card-action ">
+             <a href="#">This is a link</a>
+           </div>
+         </div>
+   </div>
+</div>
+
+
+
+
+
 
 
   <!-- test area -->
-
-  <img class="responsive-img" src="./img/logofinal3.png">
 
 
 
@@ -133,9 +208,7 @@
                 <h5 class="white-text">Contact us</h5>
                   <ul>
 
-                    <li><button class="btn waves-effect waves-light" >
-                            <i class="material-icons right">send</i>
-                          </button><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
                     <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
@@ -177,6 +250,7 @@
 
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/f4eb75c3a7.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
 <script src="./js/test.js"></script>
 </html>

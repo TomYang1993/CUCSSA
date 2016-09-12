@@ -16,3 +16,7 @@ console.log('hello!');
    $('.carousel.carousel-slider').carousel({full_width: true});
 
    $('.slider').slider();
+
+
+
+// extend jQuery

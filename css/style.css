@@ -1,5 +1,26 @@
+
+header {
+   position: relative;
+}
+header:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("https://s2.graphiq.com/sites/default/files/5307/media/images/Columbia_University_in_the_City_of_New_York_5686856.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+
+
+
 nav {
-      background-color: #0d47a1;
+      background-color: #616161;
 
 }
 
@@ -18,6 +39,68 @@ nav .nav-wrapper .brand-logo .responsive-img {
 }
 
 
+.introcucssa {
+
+
+}
+
+
+#introtitle {
+
+  animation-delay: 1s;
+}
+#introsubtitle1 {
+
+  animation-delay: 2s;
+
+}
+#introsubtitle2 {
+
+  animation-delay: 3s;
+
+}
+#introsubtitle3 {
+
+  animation-delay: 3s;
+
+}
+#introsubtitle4 {
+
+  animation-delay: 3s;
+
+}
+#introsubtitle5 {
+  margin-top: 50px;
+  animation-delay: 4s;
+
+}
+
+#newstitle {
+  animation-duration: 0.8s;
+  animation-delay: 2s;
+  
+
+}
+
+#card1 {
+  animation-duration: 0.8s;
+  animation-delay: 4s;
+}
+
+#card2 {
+  animation-duration: 0.8s;
+  animation-delay: 5s;
+}
+
+#card3 {
+  animation-duration: 0.8s;
+  animation-delay: 6s;
+}
+
+
+
+
+
 footer {
       background-color: #0d47a1;
 }
@@ -28,9 +111,9 @@ footer {
 }
 
 footer.page-footer  {
-  background-color: #0d47a1;
+  background-color: #616161;
 }
 
 footer .footer-copyright {
-  background-color: #1a237e;
+  background-color: #212121;
 }
