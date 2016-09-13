@@ -22,21 +22,29 @@
 
 <!-- responsive navbar with sidebar -->
 
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
+  <ul id="campus1" class="dropdown-content">
+    <li><a href="engclub.html">Clubs</a></li>
+    <li><a href="engstudentscare.html">New Students Care</a></li>
+    <li><a href="http://www.cubbs.org/forum.php">BBS</a></li>
   </ul>
-  <ul id="dropdown2" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
+  <ul id="campus2" class="dropdown-content">
+    <li><a href="engclub.html">Clubs</a></li>
+    <li><a href="engstudentscare.html">New Students Care</a></li>
+    <li><a href="http://www.cubbs.org/forum.php">BBS</a></li>
+  </ul>
+  <ul id="about1" class="dropdown-content">
+    <li><a href="#!">Association</a></li>
+    <li><a href="#!">Departments</a></li>
+    <li><a href="#!">Team</a></li>
+  </ul>
+  <ul id="about2" class="dropdown-content">
+    <li><a href="#!">Association</a></li>
+    <li><a href="#!">Departments</a></li>
+    <li><a href="#!">Team</a></li>
   </ul>
   <ul class="side-nav" id="mobile-demo">
-    <li><a class="dropdown-button" href="#" data-activates="dropdown2">Campus Life<i class="material-icons right">arrow_drop_down</i></a></li>
-    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">About us<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a class="dropdown-button" href="#" data-activates="campus2">Campus Life<i class="material-icons right">arrow_drop_down</i></a></li>
+    <li><a class="dropdown-button" href="#!" data-activates="about2">About us<i class="material-icons right">arrow_drop_down</i></a></li>
 
     <li><a href="#">News</a></li>
     <li><a href="#">BBS</a></li>
@@ -44,14 +52,14 @@
     <div class="navbar-fixed">
       <nav >
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo"><img class="responsive-img" src="./img/logofinal.png"></a>
+          <a href="index.html" class="brand-logo"><img class="responsive-img" src="./img/logofinal.png"></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a class="dropdown-button" href="#" data-activates="dropdown2">Campus Life<i class="material-icons right">arrow_drop_down</i></a></li>
-            <li><a class="dropdown-button" href="#!" data-activates="dropdown2">About us<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#" data-activates="campus1">Campus Life<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="about1">About us<i class="material-icons right">arrow_drop_down</i></a></li>
 
-            <li><a href="#">News</a></li>
-            <li><a href="#">BBS</a></li>
+            <li><a href="engnews.html">News</a></li>
+            <li><a href="http://www.cubbs.org/forum.php">BBS</a></li>
             <li> <a class="waves-effect waves-light btn green accent-3" href="https://lists.columbia.edu/mailman/listinfo/cucssa">Subscribe</a>  </li>
           </ul>
 
@@ -127,10 +135,16 @@
 
   <!-- News area -->
 
+<div class="row">
 
-  <div class=" animated zoomIn " id="newstitle">
-    <h2 class="center">News Center</h2>
+  <div class="animated zoomIn" id="newstitle">
+    <div class="col s4 offset-s4" >
+      <a class="grey-text text-lighten-3" href="engnews.html"><h2 class="center z-depth-3 teal">News Center</h2></a>
+    </div>
+
   </div>
+
+</div>
 
 
 
@@ -169,10 +183,12 @@
    </div>
    <div class="col s4 animated zoomIn" id="card3">
      <div class="card " >
+       <a href="">
            <div class="card-image">
              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Butler_Library_-_1000px_-_AC.jpg">
              <span class="card-title">Card Title</span>
            </div>
+        </a>
            <div class="card-content ">
              <p>I am a very simple card. I am good at containing small bits of information.
              I am convenient because I require little markup to use effectively.</p>
@@ -218,12 +234,7 @@
               <h5 class="white-text">Developed by</h5>
                 <ul>
                   <li><a class="grey-text text-lighten-3" href="#!">Xiaoye (Tom) Yang</a></li>
-                  <li>
-                    <div class="row">
-                      <div class="col s4"><a class="waves-effect waves-teal btn-floating red" href="https://github.com/TomYang1993"  ><i class="fa fa-github fa-inverse" ></i></a></div>
-                      <div class="col s4"><a class="waves-effect waves-teal btn-floating red" href="https://www.linkedin.com/in/xiaoyeyang" ><i class="fa fa-linkedin fa-inverse" ></i></a></div>
-                    </div>
-                  </li>
+
                 </ul>
             </div>
 

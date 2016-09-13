@@ -7,7 +7,9 @@ console.log('hello!');
 
   $(".dropdown-button").dropdown();
 
-
+  $('.collapsible').collapsible({
+        accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+      });
 
   $("body.side-nav .dropdown-button").dropdown();
 
