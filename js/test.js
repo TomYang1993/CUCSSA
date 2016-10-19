@@ -1,4 +1,4 @@
-console.log('hello!');
+
 
 // Initialize collapse button
   $(".button-collapse").sideNav();
